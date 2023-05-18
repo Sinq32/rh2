@@ -1,2 +1,9 @@
-setclipboard("https://discord.gg/hYz2BaAUMJ")
-game.Players.LocalPlayer:Kick("the loadingstring has been changed join the server: discord invite copied")
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+
+local discordInvite = "https://discord.gg/hYz2BaAUMJ"
+HttpService:SetClipboard(discordInvite)
+
+local localPlayer = Players.LocalPlayer
+local kickMessage = "The script has been updated. Join the server for the new one: discord invite copied."
+localPlayer:Kick(kickMessage)
