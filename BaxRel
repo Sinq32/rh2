@@ -1,1 +1,2 @@
-
+setclipboard("https://discord.gg/hYz2BaAUMJ")
+game.Players.LocalPlayer:Kick("the loadingstring has been changed join the server: discord invite copied")
